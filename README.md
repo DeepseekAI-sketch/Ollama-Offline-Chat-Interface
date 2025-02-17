@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# Ollama Offline Chat Interface
+## LLM Chat Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, minimalist chat interface for interacting with offline large language models, featuring a simple message exchange system and model selector for various LLMs like Llama 3.3, DeepSeek-R1, and others.
+Main chat window with message bubbles, alternating between AI responses (with model avatar) and user inputs
+Model selector dropdown/toggle in the top navigation to switch between different LLMs
+Message input bar with send button and additional features like voice input and file attachment
+System status indicator showing offline/online state and current model information
+Clean, modern UI with light/dark mode support and minimal animations for smooth transitions
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![image](https://github.com/user-attachments/assets/36cf0b11-d7f1-40e5-adb3-ec8beed5debe)
